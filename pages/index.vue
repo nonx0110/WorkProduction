@@ -79,31 +79,16 @@
   </div>
 </template>
 
-
-<script src="index.js" type="text/javascript">
-import axios from 'axios'
+<script>
 export default {
-
- mounted(){
-     //処理
-
-// マウスオーバー時の処理
-
+methods:{
 
 if (process,browser) {
-
-
-elem.addEventListener("mouseover", function (event) {
-// マウスオーバー時の処理
-    var obj = document.getElementById("bear_hand");
-    obj.src = "../static/images/kuma_after.svg";
-}, false);
 
 function mouseOn(){
     var obj = document.getElementById("bear_hand");
     obj.src = "../static/images/kuma_after.svg";
 }
-
 
 // マウスアウト時の処理
 function mouseOff(){
@@ -130,7 +115,7 @@ var num_a = -1;
 slideshow_timer_tori();
 
 function slideshow_timer_tori(){
-console.log(index.VALUE);
+// console.log(index.VALUE);
 }
 }
  }
